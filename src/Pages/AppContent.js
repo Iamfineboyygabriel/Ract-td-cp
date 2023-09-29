@@ -28,7 +28,7 @@ const AppContent = () => {
           <TodoItem key={todo.id} todo={todo} />
         ))
       ) : (
-        <p className='notask'>No tasks found.</p>
+        <p className='notask'>No task(s) found.</p>
       )}
     </div>
   );
